@@ -39,7 +39,7 @@ namespace MelonLoader
             PluginsDirectory = Path.Combine(MelonUtils.BaseDirectory, "Plugins");
             if (!Directory.Exists(PluginsDirectory))
                 Directory.CreateDirectory(PluginsDirectory);
-            ModsDirectory = Path.Combine(MelonUtils.BaseDirectory, "Mods");
+            ModsDirectory = Path.Combine(MelonUtils.BaseDirectory, "Mods1");
             if (!Directory.Exists(ModsDirectory))
                 Directory.CreateDirectory(ModsDirectory);
         }
